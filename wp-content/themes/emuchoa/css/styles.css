@@ -1,0 +1,520 @@
+/* defaults */
+body{
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	background: #639cca;
+}
+
+a{
+	text-decoration: none;
+}
+ a.more-link{
+ 	display: none;
+ }
+
+.text-intro{
+	font-size: 12px;
+	line-height: 20px;
+}
+
+.title-bar{
+	height: 42px;
+	background: url(../images/title-bar.png) left no-repeat;
+	margin-top: 30px;
+}
+
+	.title-bar h3, .title-bar h1{
+		width: 200px;
+		font-weight: normal;
+		font-size: 16px;
+		font-family: Helvetica;
+		text-transform: uppercase;
+		color: #FFF;
+		padding-top: 20px;
+		padding-left: 40px;
+	}
+
+
+	.title-bar h3, .title-bar h1 a{
+		color: #FFF;
+	}
+
+.leia-mais{
+	margin-top: 30px;
+}
+
+	.leia-mais a{
+		color: #629bca;
+	}
+
+/* HEADER */
+#header{
+	width: 100%;
+	height: 438px;
+	background: url(../images/background-header.png) repeat-x;
+}
+
+	#header #logo-menu{
+		position: absolute;
+		width: 980px;
+		z-index: 10;
+		background: url(../images/topo.png) top left no-repeat;
+	}
+
+	#header .logo{
+		width: 365px;
+		height: 109px;
+		float: left;
+	}
+
+	#header .menu-header{
+		width: 595px;
+		height: 109px;
+		/*background: url(../images/background-menu.png) no-repeat;*/
+		float: left;
+	}
+
+	#header #menu-principal{
+		margin-top: 20px;
+	}
+		#header #menu-principal{
+
+		}
+
+			#header #menu-principal li{
+				height: 30px;
+				display: inline;
+				padding: 10px;
+				padding-right: 18px;
+				padding-left: 5px;
+				font-family: Helvetica, Verdana, Arial;
+				font-size: 13px;
+				text-transform: uppercase;
+				background: url(../images/background-menu-item.png) right 5px no-repeat;
+			}
+
+			#header #menu-principal li:last-child{
+				background: none;
+			}
+
+			#header #menu-principal li a{
+				color: #FFF;
+			}
+
+			#header #menu-principal li a:hover{
+				color: #115374;
+			}
+
+	#header #banners{
+		position:  relative;
+		width: 960px;
+		height: 440px;
+		overflow: hidden;
+	}
+
+	#header #banners .cycle-prev{
+		position: absolute;
+		margin-top: -180px;
+		z-index: 100;
+		width: 31px;
+		height: 31px;
+		margin-left: 5px;
+		background: url(../images/slide-left.png) center center no-repeat;
+	}
+
+	#header #banners .cycle-next{
+		position: absolute;
+		margin-top: -180px;
+		z-index: 100;
+		width: 31px;
+		height: 31px;
+		margin-left: 920px;
+		background: url(../images/slide-right.png) center center no-repeat;
+	}
+
+	#header #banners .cycle-pager{
+		position: absolute;
+		z-index: 100;
+		margin-top: -50px;
+		margin-left: 75px;
+	}
+
+	#header #banners .cycle-pager-bolinha{
+		width: 7px;
+		height: 7px;
+		background: url(../images/cycle-pager.png) center center no-repeat;
+		float: left;
+		margin-right: 20px;
+	}
+
+
+	#header #banners .activeSlide{
+		background: url(../images/cycle-pager-active.png) center center no-repeat;
+	}
+
+	
+/* MAIN */
+
+#main{
+	background: #FFF;
+}
+
+	#main .shadow-1{
+		width: 100%;
+		height: 20px;
+		background: url(../images/shadow-1.png) top center;
+	}
+
+	#main .shadow-2{
+		width: 100%;
+		height: 20px;
+		background: url(../images/shadow-2.png) top center;
+	}
+
+/* HOME */
+
+#home .compromisso{
+
+}
+
+	#home .compromisso .text-intro{
+		margin-top: 35px;
+	}
+
+	#home .compromisso .foto{
+		background: url(../images/background-foto-compromisso.png) no-repeat center bottom;
+		height: 253px;
+		text-align: center;
+		margin-top: 20px;
+	}
+
+		#home .compromisso .foto img{
+			margin-top: 15px;
+			margin-left: 15px;
+		}
+
+#home .projetos{
+	height: 400px;
+}
+
+	#home .projetos .projetos-content{
+		margin-top: 30px;
+		height: 390px;
+	}
+
+	#home .projetos .projeto{
+		background:  url(../images/home-projetos.png) no-repeat center top;
+		/*width: 320px;
+		height: 280px;*/
+		margin-top: 25px;
+		text-align: center;
+	}
+
+	#home .projetos .projeto img{
+		margin-top: 10px;
+	}
+
+	#home .projetos .projeto .projeto-title{
+		width: 100%;
+		margin-top: 30px;
+		text-align: center;
+		font-size: 12px;
+		line-height: 20px;
+	}
+
+	.jcarousel-container{
+		width: 930px;
+		height: 280px;
+	}
+
+	.jcarousel-clip {
+		overflow: hidden;
+	}
+
+	.jcarousel-clip-horizontal{
+		width: 960px;
+		height: 330px;
+	}
+
+	.jcarousel-item {
+		width: 320px !important;
+		height: 280px !important;
+	}
+
+	.jcarousel-prev{
+		display: block;
+		width: 31px;
+		height: 31px;
+		position: absolute;
+		top: 140px;
+		background: url(../images/slide-left.png) center center no-repeat;
+	}
+
+	.jcarousel-next{
+		display: block;
+		width: 31px;
+		height: 31px;
+		position: absolute;
+		top: 140px;
+		left: 930px;
+		background: url(../images/slide-right.png) center center no-repeat;
+	}
+
+/* FOOTER */
+#footer{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+	#footer .orcamento{
+		text-align: right;
+	}
+
+/* POST */
+.single{
+
+}
+
+
+	.single .img-destaque{
+		margin-top: 20px;
+		min-height: 150px;
+	}
+
+	.single, .entry-content, #lista-download{
+		font-size: 12px;
+	}
+
+		.entry-content{
+			margin-top: 20px;
+			color: #000;
+		}
+
+		p{
+			line-height: 25px;
+			margin-bottom: 20px;
+			font-size: 12px;
+		}
+
+
+		.single .entry-header a h1{
+			color: #639cca;	
+		}
+
+		.single .entry-title{
+			color: #639cca;	
+			min-height: 20px;
+			margin-top: 20px;
+			margin-bottom: 20px;
+			font-size: 30px;
+			font-family: Helvetica;
+			font-weight: normal;
+		}
+
+		.single .entry-content a{
+			clear: both;
+			color: #639cca;
+		}
+
+		/* Gallery Post */
+		.gallery .gallery-icon{
+
+		}
+
+			.gallery .gallery-icon img{
+				border: 2px solid #e8e8e8 !important;
+			}
+
+/* Formularios */
+.wpcf7-form{
+
+}
+
+	.wpcf7-form .obrigatorio{
+		/*font-weight: bold;*/
+	}
+
+	.wpcf7-form p{
+		line-height: 15px !important;
+		margin-bottom: 0px !important;
+	}
+
+	.wpcf7-form .clear{
+		margin-bottom: 10px;
+	}
+
+	.wpcf7-form .wpcf7-text, .wpcf7-form .wpcf7-textarea, .wpcf7-form .wpcf7-file{
+		margin-top: 15px;
+		width: 100%;
+		height: 20px;
+		border: 1px solid #629bca;
+	}
+
+	.wpcf7-form .wpcf7-textarea{
+		height: 260px;
+	}
+
+	.wpcf7-form .wpcf7-submit{
+		background: #629bca;
+		border: none;
+		color: #FFF;
+		min-width: 150px;
+		height: 40px;
+	}
+
+	.wpcf7-form label.error{
+		clear: both;
+		color: red;
+		display: block;
+	}
+
+	.wpcf7-form .wpcf7-response-output{
+		margin-top: 20px;
+		padding: 20px;
+		color: #FFF;
+		text-align: center;
+	}
+
+	.wpcf7-form .wpcf7-mail-sent-ok{
+		background: #97c2e2;
+	}
+
+/* Quem somos */
+.quem-somos{
+
+}
+
+	.quem-somos ul{
+
+	}
+
+	.quem-somos ul li{
+		min-height: 40px;
+		padding-top: 20px;
+		padding-left: 65px;
+		background: url(../images/capacete.png) left center no-repeat;
+	}
+
+.quem-somos .foto-quem-somos{
+	height: 320px;
+	overflow: hidden;
+	background: url(../images/background-foto-quem-somos.png) top center no-repeat;
+	position: absolute;
+	margin-left: 635px;
+	margin-top: 60px;
+}
+
+.quem-somos .foto-quem-somos img{
+	margin-left: 3px;
+}
+
+/* Download */
+#downlaods{
+	height: 310px;
+/*	background: red;*/
+}
+
+#lista-download{
+	
+}
+
+	#lista-download a{
+		color: #000;
+	}
+
+	#lista-download a:hover{
+		text-decoration: underline;
+	}
+
+	#lista-download h3{
+		font-size: 12px;
+		color: #34668f;
+	}
+
+
+	#lista-download li{
+		min-height: 45px;
+		display: block;
+		/*background: url(../images/folder.png) left center no-repeat;*/
+		/*padding-left: 60px;*/
+		padding-top: 30px;
+	}
+/* Projetos */
+ul#abas{
+	background: url(../images/projetos-abas.png) top left no-repeat;
+	width: 960px;
+	height: 48px;
+	padding-top: 18px;
+}
+
+	ul#abas li{
+		display: inline;
+	}
+
+	ul#abas li a{
+		color: #FFF;
+	}
+
+
+	ul#abas li a.selected{
+		color: #115374;
+	}
+
+	ul#abas li.aba-destaques{
+		margin-left: 40px;
+	}
+
+	ul#abas li.aba-reforcos{
+		margin-left: 60px;
+	}
+
+	ul#abas li.aba-recentes{
+		margin-left: 65px;
+	}
+
+	ul#abas li.aba-gerais{
+		margin-left: 60px;
+	}
+
+	.content-projeto{
+		margin-bottom: 30px;
+		font-size: 10px;
+	}
+
+	.contaba{
+
+	}
+
+/* Clientes */
+.clientes{
+
+}
+
+	.clientes .clientes-logo{
+		margin-top: 20px;
+	}
+/* Paginação */
+.paginate{
+	text-transform: uppercase;
+	font-size: 12px;
+	margin-top: 20px;
+}
+
+	.paginate .current, .paginate a{
+		padding-left: 5px;
+		padding-right: 5px;
+		color: #000;
+	}
+
+	.paginate .current{
+		font-weight: bold;
+		color: #639cca;
+	}
+
+/* Erro 404*/
+.erro404{
+	text-align: center;
+	font-size: 26px;
+	margin-top: 150px;
+	margin-bottom: 150px;
+	color: #639cca;
+}
